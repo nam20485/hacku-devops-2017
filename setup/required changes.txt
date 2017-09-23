@@ -1,7 +1,3 @@
-# HackOregon DevOps 2017 Course
-Finished Project Exemplars will be hosted here
-## See the [Wiki](https://github.com/hackoregon/hacku-devops-2017/wiki) for syllabus
-
 Changes needed from fresh install of LM 18.2:
 
 1.) install git
@@ -25,8 +21,5 @@ sudo apt-get install git
     
     use synaptic to install 'ansible'
 
-Alternatively:
-
-Execute devops-assign1-setup shell script
 
 

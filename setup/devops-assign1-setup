@@ -1,0 +1,35 @@
+#!/bin/bash
+
+#
+# install git
+#
+sudo apt-get install git
+
+#
+# docker-ce
+#
+# install package pre-requisites
+#
+sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
+#
+# add GPG key to apt
+#
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+#
+# add repo
+#
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu xenial stable"
+#
+# install
+#
+sudo apt-get install docker-ce
+
+#
+# vagrant
+#
+sudo apt-get install vagrant
+
+#
+# ansible
+#
+sudo apt-get install ansible
