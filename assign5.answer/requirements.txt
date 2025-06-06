@@ -1,5 +1,5 @@
-django==1.9.2
-djangorestframework==3.3.2
+django==4.2.22
+djangorestframework==3.15.2
 django-filter
 django-rest-swagger
 psycopg2
